@@ -49,6 +49,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -141,7 +143,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7c48c1c7afa75394982cfb6b394d29cd, type: 3}
   - {fileID: 8300000, guid: fa997e29fa94a17468c0f0fe043ac3e4, type: 3}
   - {fileID: 8300000, guid: bea06d572a9558b449132d83b3ba249d, type: 3}
-  randomFactor: 1
+  randomFactor: 0.2
   maxVelocity: 15
   minVelocity: 10
 --- !u!82 &2277636814735706676
