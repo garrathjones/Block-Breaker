@@ -776,7 +776,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lets Go!
+  m_text: "Lets \nGoooo!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -913,7 +913,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.02352939, g: 0.972549, b: 0.38728032, a: 1}
+    m_NormalColor: {r: 0.02352939, g: 0.93613774, b: 0.972549, a: 1}
     m_HighlightedColor: {r: 0.90008247, g: 0.9528302, b: 0.03146139, a: 1}
     m_PressedColor: {r: 0.07413671, g: 0.9245283, b: 0.5108085, a: 1}
     m_SelectedColor: {r: 0.27058828, g: 1, b: 0.97879225, a: 1}
