@@ -17,7 +17,6 @@ public class Paddle : MonoBehaviour
     GameSession theGameSession;
     Ball theBall;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +27,15 @@ public class Paddle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        PaddleMovement();
+    }
+
+    private void PaddleMovement()
+    {
         float yMousePosInUnits = Input.mousePosition.y / Screen.width * screenHeight;
-
         Vector2 paddlePos = new Vector2(transform.position.x, transform.position.y);
-        paddlePos.x = Mathf.Clamp(GetXPos(),xMin,xMax);
+        paddlePos.x = Mathf.Clamp(GetXPos(), xMin, xMax);
         paddlePos.y = Mathf.Clamp(yMousePosInUnits, yMin, yMax);
-
         transform.position = paddlePos;
     }
 

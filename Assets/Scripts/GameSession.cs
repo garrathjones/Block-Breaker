@@ -11,7 +11,6 @@ public class GameSession : MonoBehaviour
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] bool isAutoPlayEnabled;
 
-
     // state variables
     [SerializeField] int currentScore = 0;
 

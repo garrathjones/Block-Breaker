@@ -7,11 +7,12 @@ public class Ball : MonoBehaviour
     
     [SerializeField] Paddle paddle1;
     [SerializeField] float launchVelocityX = 2f;
-    [SerializeField] float launchVelocityY = 15f;
+    [SerializeField] float launchVelocityY = 10f;
     [SerializeField] AudioClip[] ballSounds;
     [SerializeField] float randomFactor = 0.2f;
+    [SerializeField] float correctionFactor = 0.8f;
     [SerializeField] float maxVelocity = 10f;
-    [SerializeField] float minVelocity = 1f;
+    [SerializeField] float minVelocity = 5f;
 
     // state
     Vector2 paddleToBallVector;
@@ -72,7 +73,7 @@ public class Ball : MonoBehaviour
 
     private void speedCorrection()
     {
-        Vector2 velocityCorrectionFactor = new Vector2(0.5f, 0.5f);
+        Vector2 velocityCorrectionFactor = new Vector2(correctionFactor, correctionFactor);
         if(System.Math.Abs(myRigidBody2d.velocity.magnitude) > maxVelocity)
         {
             myRigidBody2d.velocity *= velocityCorrectionFactor;
