@@ -52,4 +52,9 @@ public class GameSession : MonoBehaviour
     {
         return isAutoPlayEnabled;
     }
+
+    public int GetScore()
+    {
+        return currentScore;
+    }
 }
