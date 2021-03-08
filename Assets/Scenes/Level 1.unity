@@ -2601,21 +2601,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1243186047536561460, guid: 5629b9611d1d1d44c8fe4064aaea2f70,
-        type: 3}
-      propertyPath: m_TargetDisplay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1243186047536561460, guid: 5629b9611d1d1d44c8fe4064aaea2f70,
-        type: 3}
-      propertyPath: orthographic size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1243186047536561460, guid: 5629b9611d1d1d44c8fe4064aaea2f70,
-        type: 3}
-      propertyPath: m_AllowDynamicResolution
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1243186047536561463, guid: 5629b9611d1d1d44c8fe4064aaea2f70,
         type: 3}
       propertyPath: m_Name
